@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div>
         <div class="">
             <div class="d-flex bd-highlight">
-                <div class="d-flex bd-highlight tools">
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img src="./img/pencil 2.png" alt=""></button><div>Add  Text</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img src="./img/text style.png" alt=""></button><div>Text  Style</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img src="./img/increase font.png" alt=""></button><div> Increase Text</div></div>                    
+                <div class="" style="display:flex">
+                    <div class=""> <button  class="icon" id="save"><img src="./img/save.png" alt=""></button></div>
+                    <div class=""> <button  class="icon" id="share"><img src="./img/share.png" alt=""></button></div>                    
                 </div>
             </div>
 
             <div class="image-box">
-                <div class="image">
-                    <img class="rounded mx-auto d-block" style="max-width: 100%;height:auto;margin:auto" src="./img/bird.jpg" alt="">
+                <div >
+                    <div  class="image">
+                        
+                        <img id="myImage"  class="rounded mx-auto d-block" style="max-width: 100%;height:auto;margin:auto" src="./img/bird.jpg" alt="">
+                    </div>
                 </div>
                 
                 <div class="add-button">
@@ -31,16 +34,19 @@
 
             <div class="d-flex bd-highlight editors">
                 <div class="d-flex bd-highlight tools">
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/pencil 2.png" alt=""></button><div>Add  Text</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/text style.png" alt=""></button><div>Text  Style</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/increase font.png" alt=""></button><div> Increase Text</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button> <div>Decrease  Text</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button> <div>Decrease  Text</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button> <div>Decrease  Text</div></div>
-                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button> <div>Decrease  Text</div></div> 
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/pencil.png" alt=""></button></div>
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/text style.png" alt=""></button></div>
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/increase font.png" alt=""></button></div>
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button></div>
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/bold.png" alt=""></button></div>
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button></div>
+                    <div class="p-2 flex-fill bd-highlight"> <button  class="icon"><img class="tool" src="./img/decrease font.png" alt=""></button></div> 
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="./script/print.min.js"></script>
+    <script src="./script/index.js"></script>
 </body>
 </html>
